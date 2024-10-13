@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('assets/Roboto-Regular.ttf');
+  }
+
+html,
+body {
+    margin: 0;
+    font-family: "Roboto-Regular";
+}
