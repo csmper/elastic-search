@@ -3,11 +3,11 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const elasticClient = new Client({
     cloud: {
-        id: '810b523d774b479e84fb8746adf7fa19:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJGFiMzUyMzc5YmYyZTRjMDdhZmJhMTk0NDAzN2NiNTQ5JGU5ODAxNjliNmVkNzQwNjA4ZmVkZTI4ZTE4OTM4NWM2',
+        id: '<elastic cloud id>',
     },
     auth: {
-        username: 'elastic',
-        password: 'kIzkEdHcCyxumzvAwtaSN44k'
+        username: '<elastic username>',
+        password: '<elastic password>'
     }
 });
 
